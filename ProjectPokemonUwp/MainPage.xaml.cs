@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectPokemonUwp.View;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,11 +27,34 @@ namespace ProjectPokemonUwp
         public MainPage()
         {
             this.InitializeComponent();
+            FrameMenuItem.Navigate(typeof(Pokedex));
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             await Launcher.LaunchUriAsync(new Uri("com.projectpokemonwpf://"));
+        }
+
+        private void nvSample_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        {
+            if (args.IsSettingsSelected)
+            {
+                FrameMenuItem.Navigate(typeof(Pokedex));
+            }
+            else
+            {
+                NavigationViewItem item = args.SelectedItem as NavigationViewItem;
+
+                switch (item.Tag.ToString())
+                {
+                    case "Pokedex":
+                        FrameMenuItem.Navigate(typeof(Pokedex));
+                        break;
+                    case "Add Pokemon":
+                        FrameMenuItem.Navigate(typeof(Pokedex));
+                        break;
+                }
+            }
         }
     }
 }

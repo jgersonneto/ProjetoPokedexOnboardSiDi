@@ -6,7 +6,12 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
+AssetsImage\BackGroundPageRegisterPokemon1Ask.jpg
+AssetsImage\BackGroundPageRegisterPokemon2Ask.jpg
+AssetsImage\BackGroundPokedexDashboard.jpg
+AssetsImage\PokemonAsh.png
 App.xbf
 MainPage.xbf
 ProjectPokemonUwp.xr.xml
+View\Pokedex.xbf
 Properties\Default.rd.xml

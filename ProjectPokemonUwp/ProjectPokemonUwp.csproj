@@ -119,10 +119,48 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Interface\IDBConnection.cs" />
+    <Compile Include="Interface\ISearchPokemon.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\AbilityElement.cs" />
+    <Compile Include="Model\DreamWorld.cs" />
+    <Compile Include="Model\Home.cs" />
+    <Compile Include="Model\MenuItem\Category.cs" />
+    <Compile Include="Model\MenuItem\CategoryBase.cs" />
+    <Compile Include="Model\OfficialArtwork.cs" />
+    <Compile Include="Model\Other.cs" />
+    <Compile Include="Model\Pokemon.cs" />
+    <Compile Include="Model\PokemonElement.cs" />
+    <Compile Include="Model\PokemonPokemon.cs" />
+    <Compile Include="Model\Sprites.cs" />
+    <Compile Include="Model\StatElement.cs" />
+    <Compile Include="Model\StatStat.cs" />
+    <Compile Include="Model\TypeClass.cs" />
+    <Compile Include="Model\TypeElement.cs" />
+    <Compile Include="Model\Types.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Api\ApiService.cs" />
+    <Compile Include="Repository\Api\IApiPoke.cs" />
+    <Compile Include="Repository\DB\SqliteDBAbilitiesTable.cs" />
+    <Compile Include="Repository\DB\SqliteDBPokemonTable.cs" />
+    <Compile Include="Repository\DB\SqliteDBTypesTable.cs" />
+    <Compile Include="Repository\Factory\Api\ApiDBConnectionFatory.cs" />
+    <Compile Include="Repository\Factory\Api\SearchPokemonByIdFromApi.cs" />
+    <Compile Include="Repository\Factory\Api\SearchPokemonByNameFromApi.cs" />
+    <Compile Include="Repository\Factory\Api\SearchPokemonByTypeFromApi.cs" />
+    <Compile Include="Repository\Factory\DBManager.cs" />
+    <Compile Include="Repository\Factory\DB\SearchPokemonByIdFromDB.cs" />
+    <Compile Include="Repository\Factory\DB\SearchPokemonByNameFromDB.cs" />
+    <Compile Include="Repository\Factory\DB\SearchPokemonByTypeFromDB.cs" />
+    <Compile Include="Repository\Factory\DB\SqliteDBConnectionFatory.cs" />
+    <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="ViewModel\PokedexPageViewModel.cs" />
+    <Compile Include="ViewModel\RegisterPokemonViewModel.cs" />
+    <Compile Include="View\Pokedex.xaml.cs">
+      <DependentUpon>Pokedex.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -152,6 +190,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\Pokedex.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm">
@@ -170,9 +212,7 @@
       <Version>6.3.2</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
