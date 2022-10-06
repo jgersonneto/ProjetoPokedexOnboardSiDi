@@ -1,0 +1,15 @@
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.exe.config
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.exe
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.pdb
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.csproj.AssemblyReference.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\MainWindow.g.cs
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\App.g.cs
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf_MarkupCompile.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf_MarkupCompile.lref
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\MainWindow.baml
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.g.resources
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.Properties.Resources.resources
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.csproj.GenerateResource.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.csproj.CoreCompileInputs.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.exe
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\obj\Debug\ProjectPokemonWpf.pdb

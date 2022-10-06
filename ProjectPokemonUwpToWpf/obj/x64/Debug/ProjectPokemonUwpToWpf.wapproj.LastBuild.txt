@@ -1,0 +1,28 @@
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\SplashScreen.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\LockScreenLogo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\Square150x150Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\Square44x44Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\StoreLogo.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\Images\Wide310x150Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\bin\x64\Debug\resources.pri
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\ProjectPokemonUwp.pdb
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.exe
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.exe.config
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonWpf\bin\Debug\ProjectPokemonWpf.pdb
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\ProjectPokemonUwp.exe
+C:\Users\jg.neto\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Properties\Default.rd.xml
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\LockScreenLogo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\SplashScreen.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\Square150x150Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\Square44x44Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\StoreLogo.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\Assets\Wide310x150Logo.scale-200.png
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\ProjectPokemonUwp.xr.xml
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\App.xbf
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\MainPage.xbf
+C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd
+C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\bin\x64\Debug\Core\ProjectPokemonUwp.exe
