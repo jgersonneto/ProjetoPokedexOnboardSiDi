@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Connection;
+using Connection.Commons;
+using Connection.DataBase;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,6 +10,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -37,9 +41,12 @@ namespace ProjectPokemonUwp
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
+
+            DataBaseContext dataBaseContext = new DataBaseContext(Path.Combine(ApplicationData.Current.LocalFolder.Path, "PokeDexOnBoard.db"));
+            await dataBaseContext.CreateDataBase();
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
@@ -70,6 +77,17 @@ namespace ProjectPokemonUwp
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
+            }
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+
+            if (args.Kind == ActivationKind.Protocol)
+            {
+                ProtocolActivatedEventArgs protocolActivatedEventArgs = (ProtocolActivatedEventArgs)args;
+                GlobalParameters.DataBasePath = System.Web.HttpUtility.ParseQueryString(protocolActivatedEventArgs.Uri.Query).Get("wpfMessage");
             }
         }
 

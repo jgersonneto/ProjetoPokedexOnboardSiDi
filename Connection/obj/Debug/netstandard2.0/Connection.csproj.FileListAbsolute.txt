@@ -1,0 +1,10 @@
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\bin\Debug\netstandard2.0\Connection.deps.json
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\bin\Debug\netstandard2.0\Connection.dll
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\bin\Debug\netstandard2.0\Connection.pdb
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.csproj.AssemblyReference.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.AssemblyInfoInputs.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.AssemblyInfo.cs
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.csproj.CoreCompileInputs.cache
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.dll
+C:\Users\jg.neto\source\repos\ProjectPokemon\Connection\obj\Debug\netstandard2.0\Connection.pdb

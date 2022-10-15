@@ -1,8 +1,13 @@
-﻿using System;
+﻿using Connection;
+using Connection.Commons;
+using ProjectPokemonUwp.Model;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.System;
@@ -23,9 +28,11 @@ namespace ProjectPokemonUwp.View
     /// </summary>
     public sealed partial class Pokedex : Page
     {
+        
         public Pokedex()
         {
             this.InitializeComponent();
+            
         }
 
         private void AutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
@@ -50,10 +57,15 @@ namespace ProjectPokemonUwp.View
         //}
 
         private async void ButtonPageNavigation(object sender, RoutedEventArgs e)
-        {
+        {    
+            Button bt = (Button)sender;
+            Pokemon pokemon = (Pokemon)bt.CommandParameter;
+            Debug.WriteLine(pokemon.Name + " Teste Sender");
+            GlobalParameters.DataBasePath = pokemon.Name;
+            
             try
-            {
-                await Launcher.LaunchUriAsync(new Uri("com.projectpokemonwpf://"));
+            {   
+                await Launcher.LaunchUriAsync(new Uri("com.projectpokemonwpf://?wpfMessage={message}"));
             }
             catch (Exception ex)
             {

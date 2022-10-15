@@ -62,6 +62,14 @@ namespace ProjectPokemonUwp.Repository.Factory
             sqliteDbConnection.AddPokemonToDB(pokemon);
         }
 
+
+        public Pokemon SearchPokemonsInApiNewDB(string pokemonAttribute)
+        {
+            List<Pokemon> pokemonsAPI;
+            pokemonsAPI = apiDbConnection.GetPokemons(pokemonAttribute);
+            return pokemonsAPI[0];
+        }
+
         //public List<Pokemon> SearchPokemonsInSqlite(string pokemonAttribute)
         //{
         //    return sqliteDbConnection.GetPokemons(pokemonAttribute);

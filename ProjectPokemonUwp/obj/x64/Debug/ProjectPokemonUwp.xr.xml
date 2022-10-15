@@ -2,6 +2,8 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="ObserverListPokemons" />
+    <RootPropertyPathName Name="DataContext" />
+    <RootPropertyPathName Name="NavegationPageDetails" />
     <RootPropertyPathName Name="Types" />
     <RootPropertyPathName Name="Type" />
     <RootPropertyPathName Name="Name" />
@@ -9,6 +11,20 @@
     <RootPropertyPathName Name="Sprites" />
     <RootPropertyPathName Name="Front_Default" />
     <RootPropertyPathName Name="TextAutoSuggestBox" />
+    <RootPropertyPathName Name="SavePokemon" />
+    <RootPropertyPathName Name="CancelPokemon" />
+    <RootPropertyPathName Name="LoadImage" />
+    <RootPropertyPathName Name="OutPutTextImage" />
+    <RootPropertyPathName Name="Image" />
+    <RootPropertyPathName Name="Speed" />
+    <RootPropertyPathName Name="SpecialDefense" />
+    <RootPropertyPathName Name="SpecialAttack" />
+    <RootPropertyPathName Name="Defense" />
+    <RootPropertyPathName Name="Attack" />
+    <RootPropertyPathName Name="Hp" />
+    <RootPropertyPathName Name="Weight" />
+    <RootPropertyPathName Name="Height" />
+    <RootPropertyPathName Name="XpBase" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -67,6 +83,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
@@ -81,6 +99,8 @@
       <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Path" />
+      <RootProperty Name="ElementName" />
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -92,8 +112,12 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
@@ -113,6 +137,8 @@
       <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
@@ -127,5 +153,39 @@
       <RootEvent Name="QuerySubmitted" />
     </RootType>
     <RootType FullName="ProjectPokemonUwp.View.Pokedex" />
+    <RootType FullName="ProjectPokemonUwp.ViewModel.RegisterPokemonViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="ProjectPokemonUwp.View.RegisterPokemon" />
   </Roots.RootTypes>
 </Roots>

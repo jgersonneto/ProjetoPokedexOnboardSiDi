@@ -1,2 +1,0 @@
-C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwp\ProjectPokemonUwp.csproj;x64
-C:\Users\jg.neto\source\repos\ProjectPokemon\ProjectPokemonUwpToWpf\ProjectPokemonUwpToWpf.wapproj;x64

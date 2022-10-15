@@ -56,7 +56,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <EntryPointProjectUniqueName>..\ProjectPokemonUwp\ProjectPokemonUwp.csproj</EntryPointProjectUniqueName>
-    <PackageCertificateThumbprint>7AC5DEA783DD1FB1BAB750F436F530F1E2DED6E4</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>FA8E5C842620518DC741A4D9459A7B4D51EA8DD2</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>ProjectPokemonUwpToWpf_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>

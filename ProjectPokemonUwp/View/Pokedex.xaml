@@ -53,7 +53,9 @@
                                         Margin="6"                                       
                                         Opacity="1"
                                         HorizontalContentAlignment="Left"                                        
-                                        Click="ButtonPageNavigation">
+                                        Click="ButtonPageNavigation"
+                                        Command="{Binding Path=DataContext.NavegationPageDetails, ElementName=PagePokedex}" 
+                                        CommandParameter="{Binding}">
                                     <Button.Background>
                                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                             <GradientStop Color="Black"/>
